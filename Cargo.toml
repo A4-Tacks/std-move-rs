@@ -1,0 +1,22 @@
+[package]
+name = "std-move"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
+keywords = ["no_std", "cpp", "move"]
+categories = ["no-std"]
+description = "Similar to cpp std::move, not very useful"
+
+license = "MIT"
+repository = "https://github.com/A4-Tacks/std-move-rs"
+
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
