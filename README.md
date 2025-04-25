@@ -4,7 +4,7 @@ Like C++ `std::move` use `&mut impl StdMove`
 
 Move resource types
 
-```
+```rust
 use std_move::r#move;
 
 let mut a = vec![1, 2, 3];
@@ -16,7 +16,7 @@ assert_eq!(b, [1, 2, 3]);
 
 Trivial types
 
-```
+```rust
 use std_move::r#move;
 
 let mut n = 3;
